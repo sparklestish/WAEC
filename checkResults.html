@@ -70,7 +70,7 @@
            // $('#user_email').val(jd.email);
          // document.getElementById('user_email').value = jd.username;
       
-           $('#logged_in_user').html(jd.fullname);
+         $('#logged_in_user').html(jd.fullname);
          $('#user_email').html(jd.email);
       
        var menucard = document.getElementById('menu'); //or grab it by tagname etc
@@ -560,6 +560,7 @@ window.onclick = function(event) {
         <div class="md-form-group float-label">
           <select name="cexamyear" id="select" class="md-input">
                                                                         <option selected="selected">-- select year --</option>
+                                    <option value="2016">2016</option>
                                     <option value="2015">2015</option>
                                                                         <option value="2014">2014</option>
                                                                         <option value="2013">2013</option>
@@ -778,7 +779,7 @@ window.onclick = function(event) {
            $("#playstore").click(function(event) {
             
                     alert("Redirecting to our playstore app page...");
-                    var ref = cordova.InAppBrowser.open('https://play.google.com/store/apps/details?id=com.skubagdeveloper.app', '_blank', 'location=yes');  
+                    var ref = cordova.InAppBrowser.open('https://play.google.com/store/apps/details?id=com.waecresultscheckercenter.app', '_blank', 'location=yes');  
                    });
 
 

@@ -155,10 +155,10 @@ var country= getQueryVariable("country");
         var q10 = document.getElementById('quantity10').value;
 
         var totam = a*q;
-        var totam2 = a*q2;
-        var totam3 = a*q3;
-        var totam5 = a*q5;
-        var totam10 = a*q10;
+        var totam2 = b*q2;
+        var totam3 = c*q3;
+        var totam5 = d*q5;
+        var totam10 = e*q10;
        
        // alert(jd.fullname);
          $('#bamount').html(totam);
@@ -553,7 +553,7 @@ window.onclick = function(event) {
                   <p class="product-name"> <b>WAEC RESULTS CHECKER CARD</b></p>
                   <p nclass="product-price"><img src="images/price-tag.png" width="20px" height="20px" style="margin-right: 5px;">GH¢ <span id="bamount">GH¢ 8.00 </span> <span style="float: right; padding-right: 10px;">Quantity: 1 Card</span></p>
                </div>
-                 <input class="md-input" type="hidden" name="unitprice" id="unitprice" value="2.00" >
+                 <input class="md-input" type="hidden" name="unitprice" id="unitprice" value="8.00" >
                  <input class="md-input" type="hidden" name="name" id="name" value="WAEC RESULTS CARD" >
                  <input class="md-input" type="hidden" name="quantity" id="quantity" value="1" >
             
@@ -584,7 +584,7 @@ window.onclick = function(event) {
                   <p class="product-name"> <b>WAEC RESULTS CHECKER CARD</b></p>
                   <p nclass="product-price"><img src="images/price-tag.png" width="20px" height="20px" style="margin-right: 5px;">GH¢ <span id="bamount2">GH¢ 16.00 </span> <span style="float: right; padding-right: 10px;">Quantity: 2 Cards</span></p>
                </div>
-                 <input class="md-input" type="hidden" name="unitprice2" id="unitprice2" value="2.00" >
+                 <input class="md-input" type="hidden" name="unitprice2" id="unitprice2" value="8.00" >
                  <input class="md-input" type="hidden" name="name2" id="name2" value="WAEC RESULTS CARD" >
                  <input class="md-input" type="hidden" name="quantity2" id="quantity2" value="2" >
             
@@ -1002,7 +1002,7 @@ window.onclick = function(event) {
            $("#playstore").click(function(event) {
             
                     alert("Redirecting to our playstore app page...");
-                    var ref = cordova.InAppBrowser.open('https://play.google.com/store/apps/details?id=com.skubagdeveloper.app', '_blank', 'location=yes');  
+                    var ref = cordova.InAppBrowser.open('https://play.google.com/store/apps/details?id=com.waecresultscheckercenter.app', '_blank', 'location=yes');  
                    });
 
            

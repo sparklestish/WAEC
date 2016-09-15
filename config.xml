@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.waecresultscheckercenter.app" version="4.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>BECE & WAEC SCRATCH CARDS</name>
+    <name>BECE AND WAEC SCRATCH CARDS</name>
     <description>
          A mobile app top buy WAEC scratch cards and GES Placement cards and check wassce results instantly.
     </description>
     <author email="richardneaverscoy@gmail.com" href="#">
-         BECE & WAEC SCRATCH CARDS
+         BECE AND WAEC SCRATCH CARDS
     </author>
     <plugin name="org.apache.cordova.inappbrowser" source="npm" />
     <preference name="CrosswalkAnimatable" value="true" />
